@@ -1,6 +1,12 @@
 h1 {
+<<<<<<< HEAD
   color: yellow;
   font-family: 'Helvetica';
   font-size: 400px;
+=======
+  color: red;
+  font-family: 'Arial';
+  font-size: 100px;
+>>>>>>> feature
   text-align: center;
 }

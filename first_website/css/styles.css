@@ -47,7 +47,7 @@ p {
 .Menu {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: 'Lucida Console';
 }
 
 /* Links inside the navbar */
@@ -62,6 +62,7 @@ p {
 
 /* The dropdown container */
 .dropdown {
+
   float: left;
   overflow: hidden;
 }
@@ -80,7 +81,7 @@ p {
 
 /* Add a red background color to navbar links on hover */
 .Menu a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: black;
 }
 
 /* Dropdown content (hidden by default) */

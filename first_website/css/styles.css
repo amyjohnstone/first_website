@@ -18,5 +18,18 @@ h2 {
 p {
   color: white;
   font-family: 'Lucida Console';
-  font-size: 20px;
+  font-size: 16px;
+}
+.Menu {
+  background-color: rgb(25, 25, 112, 0.5);
+  overflow: hidden;
+}
+.Menu a {
+    float: left;
+    font-size: 20px;
+    color:rgb(255, 250, 205);
+    padding: 14px 55px;
+    text-align: center;
+    font-family: 'Lucida Console';
+
 }

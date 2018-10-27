@@ -33,3 +33,14 @@ p {
     font-family: 'Lucida Console';
 
 }
+.column {
+    float: right;
+    width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

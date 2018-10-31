@@ -31,15 +31,18 @@ p {
     padding: 14px 55px;
     text-align: center;
     font-family: 'Lucida Console';
-
 }
+
 .column_2 {
     float: right;
-    width: 45%;
+    width: 45%;s
     padding: 20px;
 }
+.random_fact {
+background-color: rgba(192, 192, 192, 0.5);
+padding: 10px 10px 30px 30px;
+}
 
-/* Bottom right text */
 .column_1 {
   float: left;
   width: 45%;

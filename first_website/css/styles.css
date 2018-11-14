@@ -142,7 +142,7 @@ p {
     bottom: 8px;
     left: 16px;
     font-size: 18px;
-    background-color: rgba(192, 192, 192, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -154,10 +154,10 @@ p {
     padding: 20px;
   }
   .About {
-    background-color: rgba(192, 192, 192, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 10px 30px 30px;
   }
   .random_fact {
-  background-color: rgba(192, 192, 192, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 10px 30px 30px;
   }

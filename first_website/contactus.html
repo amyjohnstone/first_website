@@ -40,15 +40,16 @@
   <div class = "email">
     <h4>If you want to learn more cool space facts or just want a chat, email us or contact us on social media!</h4>
     <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-      Name:<br>
+      <label>Name:<br></label>
       <input type="text" name="name"><br>
-      E-mail:<br>
+      <label>E-mail:<br></label>
       <input type="text" name="mail"><br>
-      Comment:<br>
-      <input type="text" name="comment" size="50"><br><br>
+      <label style="vertical-align: top">Comment:<br></label>
+      <textarea name="comment" form="usrform">Enter text here...</textarea>
+      <br>
       <input type="submit" value="Send">
       <input type="reset" value="Reset">
-      </form>
+    </form>
   </div>
 </body>
 </html>

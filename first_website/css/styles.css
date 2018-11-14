@@ -21,6 +21,7 @@ p {
   font-size: 16px;
 }
 
+
 .column_1 {
   float: left;
   width: 45%;
@@ -53,11 +54,3 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 10px 30px 30px;
   }
-
-.navbar-collapse_collapse a{
-  float: left;
-  font-size: 12px;
-  color:rgb(255, 250, 205);
-  font-family: 'Lucida Console';
-  padding: 20px;
-}

@@ -1,0 +1,17 @@
+h4 {
+font-family: 'Lucida Console';
+color: white;
+}
+
+.email {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  padding-left: 10px;
+  padding-right: 10px:
+}
+
+.text {
+  font-family: 'Lucida Console';
+  color: white;
+}

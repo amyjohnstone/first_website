@@ -21,6 +21,9 @@ p {
   font-size: 16px;
 }
 
+.navbar {
+  font-family: 'Lucida Console';
+}
 
 .column_1 {
   float: left;

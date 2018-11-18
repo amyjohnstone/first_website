@@ -38,8 +38,9 @@ p {
   }
 .text-block {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    width: 525px;
+    bottom: 5px;
+    left: 18px;
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;

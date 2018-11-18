@@ -4,6 +4,9 @@ body {
   padding : 10px 10px 80px 40px;
   text-align: justify;
 }
+* {
+  font-family: 'Lucida Console';
+}
 h1 {
   color:rgb(255, 250, 205);
   font-family: 'Lucida Console';

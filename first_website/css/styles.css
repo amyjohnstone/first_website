@@ -36,6 +36,9 @@ p {
 .container {
     position: relative;
   }
+  img {
+    border: 2px solid white;
+  }
 .text-block {
     position: absolute;
     width: 525px;

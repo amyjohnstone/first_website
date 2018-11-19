@@ -7,10 +7,12 @@
       <meta name="viewport" content="width=device-width" inital-scale="1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/sunquiz.js"></script>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link rel="stylesheet" type="text/css" href="css/sun.css">
-     </head>
+
     </head>
+
     <body>
       <h1>Cool Space Facts</h1>
 
@@ -58,6 +60,7 @@
               </div>
             </nav>
 
+    <div class="row">
       <div class="col-sm-5">
         <img src="sun.jpg" alt ="The Sun" style="width:100%;">
         <div class="text-block">
@@ -74,9 +77,40 @@
             <br>
             <p>Our Sun is estimated to be around 4.6 billion years old – it sounds ancient, but it is in fact only halfway through its life cycle!</p>
             <br>
-            <p>The Sun is at the heart of our Solar System. This is not by chance – the Sun is the most massive body in our neighbourhood and therefore has the strongest gravitational attraction, causing all smaller celestial bodies to orbit it. </p>
+            <p>The Sun is at the heart of our Solar System. This is not by chance – the Sun is the most massive body in our neighbourhood (it contains 98% of the total mass in the <i>entire</i> solar system) and therefore has the strongest gravitational attraction, causing all smaller celestial bodies to orbit it. </p>
            </div>
          </div>
+       </div>
+<div class="row">
+  <br>
+</div>
+        <div class="row">
+         <div class="col-sm-12">
+           <div class="quiz">
+               <h2>QUIZ</h2>
+               <!--<button id="submit">Submit Quiz</button>
+               <div id="results"></div>-->
+               <form id="quiz" name="quiz">
+                 <p>Question 1: The Sun is a main sequence star. True or False?</p>
+                 <input type="radio" name="question1" value="true"> True<br>
+                 <input type="radio" name="question1" value="false"> False<br>
+                 <p>Question 2: The Sun accounts for 98% of the mass in the solar system. True or False?</p>
+                 <input type="radio" name="question2" value="true"> True<br>
+                 <input type="radio" name="question2" value="false"> False<br>
+
+                 <br>
+                 <input id="button" type="button" value="Submit" onclick="check();">
+
+
+               </form>
+               <div id="aftersubmit">
+                 <p>TEST</p>
+               </div>
+
+
+           </div>
+         </div>
+       </div>
 
 
 

@@ -2,3 +2,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 30px 30px 30px;
 }
+.quiz {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 30px 30px 30px;
+    color: white;
+}
+#button {
+  color: black;
+}
+/*VISIBILITY HIDDEN DOES NOT WORK FOR SOME REASON*/
+#aftersubmit{
+  visibility: hidden;
+}

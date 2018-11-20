@@ -23,7 +23,11 @@ p {
   font-family: 'Lucida Console';
   font-size: 16px;
 }
-
+/*THIS IS FOR THE FACTS PAGES but its easier to put in the styles css since all htmls are linked to this*/
+.Facts {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 30px 30px 30px;
+}
 .navbar {
   font-family: 'Lucida Console';
 }
@@ -51,11 +55,11 @@ p {
     padding-right: 20px;
 }
 
-.column_2 {
+/*.column_2{
     float: right;
     width: 45%;s
     padding: 20px;
-  }
+  }*/
   .About {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 30px 30px 30px;

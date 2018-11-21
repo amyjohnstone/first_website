@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width" inital-scale="1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <script src="js/sunquiz.js"></script>
+      <script src="$js/sunquiz.js"></script>
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link rel="stylesheet" type="text/css" href="css/sun.css">
 
@@ -101,14 +101,18 @@
                  <p>Question 2: The Sun accounts for 98% of the mass in the solar system. True or False?</p>
                  <input type="radio" name="question2" value="true"> True<br>
                  <input type="radio" name="question2" value="false"> False<br>
-
+                 <p>Question 3: The Sun is 4.6 million years old. True or False?</p>
+                 <input type="radio" name="question2" value="true"> True<br>
+                 <input type="radio" name="question2" value="false"> False<br>
+                 <p>Question 4: The next stage in the Sun's evolution will be a red giant. True or False?</p>
+                 <input type="radio" name="question2" value="true"> True<br>
+                 <input type="radio" name="question2" value="false"> False<br>
                  <br>
                  <input id="button" type="button" value="Submit" onclick="check();">
-
-
                </form>
+
                <div id="aftersubmit">
-                 <p>TEST</p>
+                 <p id="numbercorrect">TEST</p>
                </div>
 
 
